@@ -45,7 +45,7 @@ To convert currencies, make a GET request to the endpoint /some_path/ with the f
 
 ## Example:
 
-http://0.0.0.0:8000/some_path/?from=USD&to=RUB&value=1
+http://0.0.0.0:8000/api/rates/convert_currency/?from=USD&to=RUB&value=1
     
 ## License
 
