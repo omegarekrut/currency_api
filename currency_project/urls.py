@@ -18,9 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('currency_converter.urls')),
-]
-
-INSTALLED_APPS = [
-    'currency_converter',
+    path('api/rates/', include('currency_converter.urls')),
 ]
