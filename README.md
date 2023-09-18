@@ -3,9 +3,9 @@
 This project provides an API to convert currencies using the apilayer service.
 ## Project Structure
 
-- **currency_converter: This is the main Django app that handles currency conversion.
-- **Dockerfile: Contains instructions to build the Docker image for the project.
-- **docker-compose.yml: Configuration to manage the multi-container Docker application.
+- currency_converter: This is the main Django app that handles currency conversion.
+- Dockerfile: Contains instructions to build the Docker image for the project.
+- docker-compose.yml: Configuration to manage the multi-container Docker application.
 
 ## Setup & Running
 ### Prerequisites
